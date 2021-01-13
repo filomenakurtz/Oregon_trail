@@ -48,7 +48,9 @@ class Wagon {
 
   totalFood() {
 
-    return this.passengers.length===this.food
+  if(wagon.totalFood===this.passengers.length)
+
+  return true
   }
 }
 
