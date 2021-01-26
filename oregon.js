@@ -11,7 +11,7 @@ class Traveler {
   }
 
   eat() {
-    this.food -= 1;
+
     if (this.food === 0) {
       this.isHealthy = true;
     } else {
@@ -48,9 +48,7 @@ class Wagon {
 
   totalFood() {
 
-  if(wagon.totalFood===this.passengers.length)
-
-  return true
+  return this.food ===this.passengers.length
   }
 }
 
